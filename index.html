@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Valentin Bernardini</title>
+</head>
+
+<body>
+    <!--  inicio -->
+    <div class="inicio">
+        <div class="contenido">
+            <header>
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-light" href="#">Navbar</a>
+                        <button class="navbar-toggler bg-light text-light" type="button " data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                <a class="nav-link text-light" href="#sobremi">about me</a>
+                                <a class="nav-link text-light" href="#skills">skills</a>
+                                <a class="nav-link text-light">Disabled</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+        </header>
+        <div data-aos="slide-up" class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy <span>Valentin Bernardini</span>, Desarrollador Web</h2>
+            <p class="descripcion">Soy desarrollador web blablabla</p>
+            <a href="#portfolio">Ir a Portfolio</a>
+        </div>
+        </div>
+    <!-- Sobre mi -->
+    <section data-aos="slide-up" id="sobremi">
+        <div class="comtenedor-foto">
+            <img class="w-100 p-4" src="imgs/ilustracion3.svg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About Me</p>
+            <h2>Hola, soy <span>Valentin Bernardini</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus neque harum ad vitae sequi ratione
+                placeat iste nostrum ex laboriosam. Quas sit cupiditate animi soluta maiores reiciendis necessitatibus
+                fugit tempore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident ad deserunt praesentium pariatur
+                illo consequatur veniam tempora. Sint velit, voluptatem, tempora quaerat excepturi laboriosam magni est
+                quam ad nostrum dolore suscipit esse porro? Assumenda excepturi culpa dolorem adipisci ullam.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Habiliudades -->
+    <div class="contenedor-skills" id="skills">
+        <h1>HABILIDADES</h1>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML & CSS</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">30%%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portaolio -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Web Desing</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Web Desing</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos</h3>
+        <div class="contenedor-form p-4">
+            <form action="">
+                <div class="fila mitad p-3">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Email" class="input-mitad">
+                </div>
+                <div class="fila p-3">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila p-3">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
