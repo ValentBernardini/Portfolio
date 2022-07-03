@@ -17,6 +17,9 @@ html {
     background-position: center center;
     height: 110vh;
     width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .navbar {
@@ -78,6 +81,53 @@ html {
 
 .presentacion a:hover {
     background-color: #FF4F29;
+}
+
+.wrapper{
+    margin-left: 50px;
+    box-sizing: content-box;
+    height: 70px;
+    padding: 50px 30px;
+    display: flex;
+    border-radius: 8px;
+}
+.words{
+    overflow: hidden;
+    font-size: 50px;
+    padding-bottom: 2px;
+}
+.words span{
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    color: #FF4F29;
+    animation: spin_words 6s infinite;
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
 }
 
 
@@ -430,4 +480,14 @@ footer {
         width: 100%;
         margin-bottom: 15px;
     }
-}
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        margin-bottom: 220px;
+    }
+    .words{
+        
+    }
+    
+} 
