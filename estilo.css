@@ -268,7 +268,7 @@ background: linear-gradient(90deg, rgba(255,79,41,0.5998774509803921) 0%, rgba(2
     }
 
     100% {
-        width: 90%;
+        width: 99%;
     }
 }
 
@@ -278,7 +278,7 @@ background: linear-gradient(90deg, rgba(255,79,41,0.5998774509803921) 0%, rgba(2
     }
 
     100% {
-        width: 30%;
+        width: 85%;
     }
 }
 
