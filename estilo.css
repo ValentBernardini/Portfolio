@@ -25,7 +25,15 @@ html {
 .navbar {
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8855917366946778) 9%, rgba(0, 0, 0, 0.24693627450980393) 72%, rgba(0, 0, 0, 0.7315301120448179) 82%);
+    border-radius: 10px;
+
 }
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .presentacion {
     max-width: 1100px;
@@ -301,16 +309,21 @@ background: linear-gradient(90deg, rgba(255,79,41,0.5998774509803921) 0%, rgba(2
 
 #portfolio .fila {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 40px 0;
+    gap: 20px;
+
 }
 
 #portfolio .fila .proyecto {
     max-width: 450px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 8px;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
+    padding: 30px;
 
 }
 
