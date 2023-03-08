@@ -22,16 +22,24 @@ html {
     position: relative;
 }
 
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
 .navbar {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8855917366946778) 9%, rgba(0, 0, 0, 0.24693627450980393) 72%, rgba(0, 0, 0, 0.7315301120448179) 82%);
-    border-radius: 10px;
+    font-size: 20px;
 
 }
 
-.navbar-nav{
-    display: flex;
-    justify-content: flex-end;
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF4F29;
+    font-size: 22px;
 }
 
 
